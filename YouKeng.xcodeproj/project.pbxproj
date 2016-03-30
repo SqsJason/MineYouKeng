@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F568735ADF01C8CAC5E783C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968FE4CA6FA659C64AAB09A1 /* libPods.a */; };
+		EF95E1C71CAC340700B66A7D /* YKLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1C51CAC340700B66A7D /* YKLoginVC.m */; };
+		EF95E1C81CAC340700B66A7D /* YKLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF95E1C61CAC340700B66A7D /* YKLoginVC.xib */; };
+		EF95E1CC1CAC341D00B66A7D /* YKMainIndexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1CA1CAC341D00B66A7D /* YKMainIndexVC.m */; };
+		EF95E1CD1CAC341D00B66A7D /* YKMainIndexVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF95E1CB1CAC341D00B66A7D /* YKMainIndexVC.xib */; };
+		EF95E1D11CAC342E00B66A7D /* YKRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1CF1CAC342E00B66A7D /* YKRegisterVC.m */; };
+		EF95E1D21CAC342E00B66A7D /* YKRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF95E1D01CAC342E00B66A7D /* YKRegisterVC.xib */; };
+		EF95E1DE1CAC386100B66A7D /* TCMember.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1DD1CAC386100B66A7D /* TCMember.m */; };
+		EF95E1E11CAC38C500B66A7D /* MemberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1E01CAC38C500B66A7D /* MemberInfo.m */; };
+		EF95E1E61CAC394600B66A7D /* ResponseLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1E31CAC394600B66A7D /* ResponseLogin.m */; };
+		EF95E1E71CAC394600B66A7D /* ResponseQueryMemberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1E51CAC394600B66A7D /* ResponseQueryMemberInfo.m */; };
 		EFEB80B81C9DBB2900250BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEB80B71C9DBB2900250BF3 /* main.m */; };
 		EFEB80BB1C9DBB2900250BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEB80BA1C9DBB2900250BF3 /* AppDelegate.m */; };
 		EFEB80BE1C9DBB2900250BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEB80BD1C9DBB2900250BF3 /* ViewController.m */; };
@@ -27,6 +38,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E8FE3BF4F92B1E83D4B875C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		968FE4CA6FA659C64AAB09A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4B9AC52EC4892739950254 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EF95E1A71CAC304500B66A7D /* YouKeng.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouKeng.pch; sourceTree = "<group>"; };
+		EF95E1C41CAC340700B66A7D /* YKLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLoginVC.h; sourceTree = "<group>"; };
+		EF95E1C51CAC340700B66A7D /* YKLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLoginVC.m; sourceTree = "<group>"; };
+		EF95E1C61CAC340700B66A7D /* YKLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKLoginVC.xib; sourceTree = "<group>"; };
+		EF95E1C91CAC341D00B66A7D /* YKMainIndexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMainIndexVC.h; sourceTree = "<group>"; };
+		EF95E1CA1CAC341D00B66A7D /* YKMainIndexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMainIndexVC.m; sourceTree = "<group>"; };
+		EF95E1CB1CAC341D00B66A7D /* YKMainIndexVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKMainIndexVC.xib; sourceTree = "<group>"; };
+		EF95E1CE1CAC342E00B66A7D /* YKRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKRegisterVC.h; sourceTree = "<group>"; };
+		EF95E1CF1CAC342E00B66A7D /* YKRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKRegisterVC.m; sourceTree = "<group>"; };
+		EF95E1D01CAC342E00B66A7D /* YKRegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKRegisterVC.xib; sourceTree = "<group>"; };
+		EF95E1DC1CAC386100B66A7D /* TCMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMember.h; sourceTree = "<group>"; };
+		EF95E1DD1CAC386100B66A7D /* TCMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMember.m; sourceTree = "<group>"; };
+		EF95E1DF1CAC38C500B66A7D /* MemberInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberInfo.h; sourceTree = "<group>"; };
+		EF95E1E01CAC38C500B66A7D /* MemberInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberInfo.m; sourceTree = "<group>"; };
+		EF95E1E21CAC394600B66A7D /* ResponseLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseLogin.h; sourceTree = "<group>"; };
+		EF95E1E31CAC394600B66A7D /* ResponseLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseLogin.m; sourceTree = "<group>"; };
+		EF95E1E41CAC394600B66A7D /* ResponseQueryMemberInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseQueryMemberInfo.h; sourceTree = "<group>"; };
+		EF95E1E51CAC394600B66A7D /* ResponseQueryMemberInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseQueryMemberInfo.m; sourceTree = "<group>"; };
 		EFEB80B31C9DBB2900250BF3 /* YouKeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouKeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEB80B71C9DBB2900250BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFEB80B91C9DBB2900250BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F568735ADF01C8CAC5E783C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +93,180 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA1919706A29413D58B71D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968FE4CA6FA659C64AAB09A1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B11EBFB5F29648F084D3D0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF4B9AC52EC4892739950254 /* Pods.debug.xcconfig */,
+				3E8FE3BF4F92B1E83D4B875C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF95E1BC1CAC33E300B66A7D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EF95E1BD1CAC33E300B66A7D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EF95E1BE1CAC33E300B66A7D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E1BF1CAC33E300B66A7D /* Login */,
+				EF95E1C01CAC33E300B66A7D /* MainIndex */,
+				EF95E1C11CAC33E300B66A7D /* MemberCenter */,
+				EF95E1C21CAC33E300B66A7D /* Register */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EF95E1BF1CAC33E300B66A7D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E1D71CAC37C500B66A7D /* View */,
+				EF95E1D61CAC37BB00B66A7D /* Model */,
+				EF95E1C41CAC340700B66A7D /* YKLoginVC.h */,
+				EF95E1C51CAC340700B66A7D /* YKLoginVC.m */,
+				EF95E1C61CAC340700B66A7D /* YKLoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EF95E1C01CAC33E300B66A7D /* MainIndex */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E1D91CAC37D200B66A7D /* View */,
+				EF95E1D81CAC37CC00B66A7D /* Model */,
+				EF95E1C91CAC341D00B66A7D /* YKMainIndexVC.h */,
+				EF95E1CA1CAC341D00B66A7D /* YKMainIndexVC.m */,
+				EF95E1CB1CAC341D00B66A7D /* YKMainIndexVC.xib */,
+			);
+			path = MainIndex;
+			sourceTree = "<group>";
+		};
+		EF95E1C11CAC33E300B66A7D /* MemberCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E1D51CAC37AD00B66A7D /* Controller */,
+				EF95E1D41CAC37A300B66A7D /* View */,
+				EF95E1D31CAC379900B66A7D /* Model */,
+			);
+			path = MemberCenter;
+			sourceTree = "<group>";
+		};
+		EF95E1C21CAC33E300B66A7D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E1DB1CAC37DD00B66A7D /* View */,
+				EF95E1DA1CAC37D900B66A7D /* Model */,
+				EF95E1CE1CAC342E00B66A7D /* YKRegisterVC.h */,
+				EF95E1CF1CAC342E00B66A7D /* YKRegisterVC.m */,
+				EF95E1D01CAC342E00B66A7D /* YKRegisterVC.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		EF95E1C31CAC33E300B66A7D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EF95E1D31CAC379900B66A7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF95E1D41CAC37A300B66A7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EF95E1D51CAC37AD00B66A7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EF95E1D61CAC37BB00B66A7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF95E1E21CAC394600B66A7D /* ResponseLogin.h */,
+				EF95E1E31CAC394600B66A7D /* ResponseLogin.m */,
+				EF95E1E41CAC394600B66A7D /* ResponseQueryMemberInfo.h */,
+				EF95E1E51CAC394600B66A7D /* ResponseQueryMemberInfo.m */,
+				EF95E1DF1CAC38C500B66A7D /* MemberInfo.h */,
+				EF95E1E01CAC38C500B66A7D /* MemberInfo.m */,
+				EF95E1DC1CAC386100B66A7D /* TCMember.h */,
+				EF95E1DD1CAC386100B66A7D /* TCMember.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF95E1D71CAC37C500B66A7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EF95E1D81CAC37CC00B66A7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF95E1D91CAC37D200B66A7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EF95E1DA1CAC37D900B66A7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF95E1DB1CAC37DD00B66A7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		EFEB80AA1C9DBB2900250BF3 = {
 			isa = PBXGroup;
 			children = (
 				EFEB80B51C9DBB2900250BF3 /* YouKeng */,
 				EFEB80CF1C9DBB2900250BF3 /* YouKengTests */,
 				EFEB80B41C9DBB2900250BF3 /* Products */,
+				8B11EBFB5F29648F084D3D0F /* Pods */,
+				1BA1919706A29413D58B71D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +282,11 @@
 		EFEB80B51C9DBB2900250BF3 /* YouKeng */ = {
 			isa = PBXGroup;
 			children = (
-				EFEB80B91C9DBB2900250BF3 /* AppDelegate.h */,
-				EFEB80BA1C9DBB2900250BF3 /* AppDelegate.m */,
-				EFEB80BC1C9DBB2900250BF3 /* ViewController.h */,
-				EFEB80BD1C9DBB2900250BF3 /* ViewController.m */,
-				EFEB80BF1C9DBB2900250BF3 /* Main.storyboard */,
+				EF95E1BE1CAC33E300B66A7D /* Module */,
+				EF95E1BC1CAC33E300B66A7D /* CoreData */,
+				EF95E1BD1CAC33E300B66A7D /* Entity */,
+				EF95E1C31CAC33E300B66A7D /* Tools */,
 				EFEB80C21C9DBB2900250BF3 /* Assets.xcassets */,
-				EFEB80C41C9DBB2900250BF3 /* LaunchScreen.storyboard */,
-				EFEB80C71C9DBB2900250BF3 /* Info.plist */,
 				EFEB80B61C9DBB2900250BF3 /* Supporting Files */,
 			);
 			path = YouKeng;
@@ -97,7 +295,15 @@
 		EFEB80B61C9DBB2900250BF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFEB80B91C9DBB2900250BF3 /* AppDelegate.h */,
+				EFEB80BA1C9DBB2900250BF3 /* AppDelegate.m */,
+				EFEB80BC1C9DBB2900250BF3 /* ViewController.h */,
+				EFEB80BD1C9DBB2900250BF3 /* ViewController.m */,
+				EFEB80BF1C9DBB2900250BF3 /* Main.storyboard */,
+				EFEB80C41C9DBB2900250BF3 /* LaunchScreen.storyboard */,
+				EFEB80C71C9DBB2900250BF3 /* Info.plist */,
 				EFEB80B71C9DBB2900250BF3 /* main.m */,
+				EF95E1A71CAC304500B66A7D /* YouKeng.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEB80D51C9DBB2900250BF3 /* Build configuration list for PBXNativeTarget "YouKeng" */;
 			buildPhases = (
+				5774812DBC942DEE622616AE /* Check Pods Manifest.lock */,
 				EFEB80AF1C9DBB2900250BF3 /* Sources */,
 				EFEB80B01C9DBB2900250BF3 /* Frameworks */,
 				EFEB80B11C9DBB2900250BF3 /* Resources */,
+				E9357D44A935505BE8B24DBB /* Embed Pods Frameworks */,
+				970DBD096AB80451666BA861 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,7 +400,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95E1C81CAC340700B66A7D /* YKLoginVC.xib in Resources */,
+				EF95E1CD1CAC341D00B66A7D /* YKMainIndexVC.xib in Resources */,
 				EFEB80C61C9DBB2900250BF3 /* LaunchScreen.storyboard in Resources */,
+				EF95E1D21CAC342E00B66A7D /* YKRegisterVC.xib in Resources */,
 				EFEB80C31C9DBB2900250BF3 /* Assets.xcassets in Resources */,
 				EFEB80C11C9DBB2900250BF3 /* Main.storyboard in Resources */,
 			);
@@ -206,12 +418,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5774812DBC942DEE622616AE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		970DBD096AB80451666BA861 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9357D44A935505BE8B24DBB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFEB80AF1C9DBB2900250BF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95E1C71CAC340700B66A7D /* YKLoginVC.m in Sources */,
+				EF95E1CC1CAC341D00B66A7D /* YKMainIndexVC.m in Sources */,
 				EFEB80BE1C9DBB2900250BF3 /* ViewController.m in Sources */,
+				EF95E1E11CAC38C500B66A7D /* MemberInfo.m in Sources */,
+				EF95E1D11CAC342E00B66A7D /* YKRegisterVC.m in Sources */,
+				EF95E1E71CAC394600B66A7D /* ResponseQueryMemberInfo.m in Sources */,
+				EF95E1E61CAC394600B66A7D /* ResponseLogin.m in Sources */,
+				EF95E1DE1CAC386100B66A7D /* TCMember.m in Sources */,
 				EFEB80BB1C9DBB2900250BF3 /* AppDelegate.m in Sources */,
 				EFEB80B81C9DBB2900250BF3 /* main.m in Sources */,
 			);
@@ -337,8 +604,10 @@
 		};
 		EFEB80D61C9DBB2900250BF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4B9AC52EC4892739950254 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YouKeng/YouKeng.pch";
 				INFOPLIST_FILE = YouKeng/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.tengdabang.YouKeng;
@@ -348,8 +617,10 @@
 		};
 		EFEB80D71C9DBB2900250BF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8FE3BF4F92B1E83D4B875C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YouKeng/YouKeng.pch";
 				INFOPLIST_FILE = YouKeng/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.tengdabang.YouKeng;
@@ -400,6 +671,7 @@
 				EFEB80D71C9DBB2900250BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFEB80D81C9DBB2900250BF3 /* Build configuration list for PBXNativeTarget "YouKengTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +680,7 @@
 				EFEB80DA1C9DBB2900250BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
