@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F568735ADF01C8CAC5E783C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968FE4CA6FA659C64AAB09A1 /* libPods.a */; };
+		EF86D02D1CAD6E2300AFB44E /* UIViewController+SENURLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86D02C1CAD6E2300AFB44E /* UIViewController+SENURLRoute.m */; };
 		EF95E1C71CAC340700B66A7D /* YKLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1C51CAC340700B66A7D /* YKLoginVC.m */; };
 		EF95E1C81CAC340700B66A7D /* YKLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF95E1C61CAC340700B66A7D /* YKLoginVC.xib */; };
 		EF95E1CC1CAC341D00B66A7D /* YKMainIndexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF95E1CA1CAC341D00B66A7D /* YKMainIndexVC.m */; };
@@ -41,6 +42,8 @@
 		3E8FE3BF4F92B1E83D4B875C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		968FE4CA6FA659C64AAB09A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4B9AC52EC4892739950254 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EF86D02B1CAD6E2300AFB44E /* UIViewController+SENURLRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SENURLRoute.h"; sourceTree = "<group>"; };
+		EF86D02C1CAD6E2300AFB44E /* UIViewController+SENURLRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SENURLRoute.m"; sourceTree = "<group>"; };
 		EF95E1A71CAC304500B66A7D /* YouKeng.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouKeng.pch; sourceTree = "<group>"; };
 		EF95E1C41CAC340700B66A7D /* YKLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLoginVC.h; sourceTree = "<group>"; };
 		EF95E1C51CAC340700B66A7D /* YKLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLoginVC.m; sourceTree = "<group>"; };
@@ -108,6 +111,23 @@
 				3E8FE3BF4F92B1E83D4B875C /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF86D0261CAD6D7D00AFB44E /* Categery */ = {
+			isa = PBXGroup;
+			children = (
+				EF86D02A1CAD6E2300AFB44E /* SENURLRoute */,
+			);
+			path = Categery;
+			sourceTree = "<group>";
+		};
+		EF86D02A1CAD6E2300AFB44E /* SENURLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				EF86D02B1CAD6E2300AFB44E /* UIViewController+SENURLRoute.h */,
+				EF86D02C1CAD6E2300AFB44E /* UIViewController+SENURLRoute.m */,
+			);
+			path = SENURLRoute;
 			sourceTree = "<group>";
 		};
 		EF95E1BC1CAC33E300B66A7D /* CoreData */ = {
@@ -184,6 +204,7 @@
 		EF95E1C31CAC33E300B66A7D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EF86D0261CAD6D7D00AFB44E /* Categery */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -479,6 +500,7 @@
 				EF95E1E71CAC394600B66A7D /* ResponseQueryMemberInfo.m in Sources */,
 				EF95E1E61CAC394600B66A7D /* ResponseLogin.m in Sources */,
 				EF95E1DE1CAC386100B66A7D /* TCMember.m in Sources */,
+				EF86D02D1CAD6E2300AFB44E /* UIViewController+SENURLRoute.m in Sources */,
 				EFEB80BB1C9DBB2900250BF3 /* AppDelegate.m in Sources */,
 				EFEB80B81C9DBB2900250BF3 /* main.m in Sources */,
 			);

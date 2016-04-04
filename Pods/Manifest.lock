@@ -27,17 +27,19 @@ PODS:
     - AVOSCloud
   - AVOSCloudIM (3.2.7):
     - AVOSCloud
+  - IQKeyboardManager (4.0.1)
   - YTKNetwork (0.6.0):
     - AFDownloadRequestOperation (~> 2.0)
     - AFNetworking (~> 2.0)
-  - YYKit (1.0.3):
-    - YYKit/no-arc (= 1.0.3)
-  - YYKit/no-arc (1.0.3)
+  - YYKit (1.0.4):
+    - YYKit/no-arc (= 1.0.4)
+  - YYKit/no-arc (1.0.4)
 
 DEPENDENCIES:
   - AVOSCloud
   - AVOSCloudCrashReporting
   - AVOSCloudIM
+  - IQKeyboardManager
   - YTKNetwork
   - YYKit
 
@@ -47,7 +49,8 @@ SPEC CHECKSUMS:
   AVOSCloud: 957d1508104d7c8ed501df9d9b734d7a98c2e047
   AVOSCloudCrashReporting: 68b4c9096c5f465f1cbda4a1d7ea5f04efa930ab
   AVOSCloudIM: ec08eaec4d27d732e3be93eadeb3bcf1355b5dcf
+  IQKeyboardManager: 0c11a0cb402a621f7aa1aff506f60ab6d2388969
   YTKNetwork: 988660d5fab310a55895239751ecfa74c3224a77
-  YYKit: fa66d61240458f14562c33c85c91d11131e43261
+  YYKit: 71f7e48cc5de6c69b5c35fee4d3978dac3267041
 
 COCOAPODS: 0.39.0

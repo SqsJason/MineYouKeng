@@ -21,9 +21,9 @@
     self.title = @"大首页";
     
     if([TCMember sharedMember].isLogin) {
-        NSLog(@"已登录");
+        NSLog(@"已登录...");
     } else {
-        NSLog(@"未登录");
+        NSLog(@"未登录...");
     }
 }
 
